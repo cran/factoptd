@@ -1,0 +1,1 @@
+factoptd<-function(narys, Optcrit = "", desvect,...)UseMethod("factoptd")

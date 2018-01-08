@@ -1,0 +1,9 @@
+exportPattern("^[[:alpha:]]+")
+import(MASS, partitions)
+  importFrom("grDevices", "dev.off", "pdf")
+  importFrom("graphics", "plot", "title","mtext", "par")
+  importFrom("stats", "contrasts")
+  importFrom("utils", "combn", "write.table", "fix")
+S3method(print, factoptd) 
+S3method(factoptd, default)
+ 
